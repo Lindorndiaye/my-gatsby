@@ -1,0 +1,42 @@
+
+.container{
+    margin-left: 5% ;
+    margin-right: 5% ;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navmenu ul {
+    list-style-type: none; /* Supprimer les puces de la liste */
+    padding: 0; /* Supprimer le rembourrage par défaut de la liste */
+    margin: 0; /* Supprimer les marges par défaut de la liste */
+    display: inline; /* Afficher les éléments de liste en ligne */
+  }
+  
+  .navmenu li {
+    display: inline; /* Afficher les éléments de liste en ligne */
+    margin-right: 10px; /* Espacement entre les éléments de la liste */
+  }
+  
+  .navmenu a {
+    text-decoration: none;
+    color: black;
+  }
+  .navmenu a:hover {
+    color: rgb(220, 193, 20);
+
+  }
+  .navmenu a:active {
+    color: rgb(15, 112, 202) !important;
+  }
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
