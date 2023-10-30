@@ -40,3 +40,6 @@
     align-items: center;
 
 }
+StaticImage {
+    height: 5px;
+}
